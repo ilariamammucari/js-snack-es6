@@ -18,12 +18,11 @@ if ( num2 < num1 ){
 }
 
 // con filter
-// const arrayUtente = arrayDiBase.filter((element,index) => {
-
-//     return index >= num1 && index <= num2;
-
-// });
-// console.log(arrayUtente);
+// const arrayUtente = arrayDiBase.filter((element,index) => index >= num1 && index <= num2);
+// console.log(
+// `   L'intervallo che hai scelto di stampare è da ${num1} a ${num2}
+//     ${arrayUtente}
+// `);
 
 
 //con foreach
