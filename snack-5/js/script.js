@@ -7,8 +7,9 @@
 const arrayDiBase = ['Pippo', 'Pluto', 'Paperino', 'Paperone', 'Paperina', 'Paperoga'];
 
 alert('Definiamo un intervallo di valori che vogliamo stampare!');
-let num1 = parseInt(prompt('Inserisci un numero compreso fra 0 e 6'));
-let num2 = parseInt(prompt('Inserisci un altro numero sempre compreso fra 0 e 6'));
+let num1 = parseInt(prompt('Inserisci un numero compreso fra 0 e 5'));
+let num2 = parseInt(prompt('Inserisci un altro numero sempre compreso fra 0 e 5'));
+
 
 if ( num2 < num1 ){
     const temporale = num2;
