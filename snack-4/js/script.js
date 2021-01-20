@@ -16,9 +16,9 @@ const bici = [
         peso: 6
     }
 ];
-
+const bici1,bici2,bici3;
 // destructuring e determino chi pesa di meno
-const [bici1,bici2,bici3] = bici;
+[bici1,bici2,bici3] = bici;
 let biciRiferimento = bici1.peso;
 
 if ( bici2.peso < biciRiferimento ) {
